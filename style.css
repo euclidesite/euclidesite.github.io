@@ -1,0 +1,259 @@
+/* Folha de estilo EUCLIDESITE por Juan Carlos */
+
+* {
+   font-family: "Noto serif", Georgia, serif;
+}
+
+p {
+   line-height: 1.6em;
+}
+
+body {
+   max-width: 830px;
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: 0;
+   margin-bottom: 0;
+   padding: 0 10px;
+}
+
+a {
+   text-decoration-line: none;
+   color: #red;
+}
+
+.pausa2 {
+   text-indent: 0;
+   margin-top: 2.17em;
+}
+
+.paragrafo-menor {
+   font-size: smaller;
+}
+
+.pausa3 {
+   text-indent: 0;
+   margin-top: 3.08em;
+}
+
+li {
+   list-style-type: none;
+}
+
+dt {
+   font-weight: normal;
+}
+
+details {
+   font-size: medium;
+}
+
+summary {
+   cursor: pointer;
+}
+
+summary::marker {
+   color: #a09a92;
+}
+
+details {
+   padding-top: 1em;
+   padding-bottom: 1em;
+   font-size: inherit;
+}
+
+details+details {
+   padding-top: 0;
+   padding-bottom: 1em;
+}
+
+.poem {
+   padding-left: 1.5em;
+   margin-bottom: 1em;
+   margin-top: 0.5em;
+}
+
+.poem2 {
+   margin-bottom: 1em;
+   margin-top: 0.5em;
+}
+
+.poem-first-verse-return {
+   margin-left: 2em !important;
+   text-indent: -2em;
+   margin-bottom: 1em;
+   margin-top: 0.5em;
+}
+
+.poem-tab {
+   margin-left: 1.5em;
+   padding-bottom: 1em;
+}
+
+.tab {
+   margin-left: 1.5em;
+}
+
+.epigrafe-dedicatoria {
+   padding-left: 40%;
+   padding-bottom: 1em;
+   text-align: left;
+}
+
+/* Tabelas */
+table {
+   table-layout: fixed;
+   border: 0;
+   margin-top: 1em;
+   font-size: 0.8em;
+   text-align: left;
+}
+
+td {
+   overflow-wrap: break-word;
+   white-space: pre-wrap;
+   border: 0;
+   vertical-align: top;
+   text-align: left;
+   border-bottom: 1px solid #d9d6d0;
+}
+
+th {
+   vertical-align: top;
+   border: 0;
+   font-style: normal;
+   font-weight: normal;
+   text-align: left;
+   border-bottom: 1px solid #d9d6d0;
+}
+
+table>caption {
+   text-align: left;
+   text-transform: uppercase;
+   font-size: medium;
+   padding-bottom: 1em;
+}
+
+select {
+   appearance: none;
+}
+
+ul.breadcrumb {
+   font-size: small;
+   list-style: none;
+   text-transform: uppercase;
+   margin-bottom: 4em;
+   margin-left: 0;
+   margin-right: 0;
+   line-height: 2em;
+}
+
+ul.breadcrumb li {
+   display: inline;
+   font-size: inherit;
+}
+
+ul.breadcrumb li+li:before {
+   padding: 0.5em;
+   content: "/\00a0";
+}
+
+ul.breadcrumb li a {
+   text-decoration: none;
+}
+
+ul.breadcrumb li a:hover {
+   color: #6b3000;
+}
+
+.summary-page {
+   word-spacing: 0.5em;
+   line-height: 200%;
+   padding-top: 0.5em;
+   font-size: larger !important;
+}
+
+.nav {
+   font-size: medium;
+   text-align: center;
+   width: 49%;
+   display: inline-block;
+}
+
+p.bibliografia {
+   padding-left: 1.4em;
+   text-indent: -1.3em;
+   margin-top: 0;
+   margin-bottom: 0;
+   padding-top: 0;
+   padding-bottom: 0;
+}
+
+.como-citar {
+   font-size: smaller;
+   padding: 2%;
+   margin: 2%;
+   white-space: pre-wrap;
+   overflow-wrap: break-word;
+}
+
+.ver-tambem {
+   color: #555;
+   padding-left: 1em;
+   font-size: smaller;
+   padding: 2%;
+   margin: 2%;
+   display: table;
+}
+
+.ver-tambem-titulo {
+   font-size: x-large;
+   line-height: 1.5;
+   font-weight: 400;
+   max-width: 80%;
+   padding-top: 0.5em;
+   margin-bottom: 0.1em !important;
+   padding-bottom: 0.1em !important;
+}
+
+blockquote {
+   padding-left: 1.5rem;
+   font-size: inherit;
+   border-left: none;
+}
+
+cite {
+   color: #787065;
+   font-style: italic;
+   margin-top: 1em;
+   padding-bottom: 2em;
+   margin-bottom: 2em;
+}
+
+.notas {
+   font-size: smaller;
+   border-top-style: solid;
+   border-top-color: #666;
+   border-top-width: 1px;
+   margin-top: 2em;
+   padding-top: 1em;
+}
+
+.numeracao-notas {
+   text-decoration: none;
+   white-space: nowrap;
+}
+
+/* Ir ao Topo */
+.irtopo {
+   font-size: larger;
+   background-color: #eee;
+   color: #666;
+   text-align: center;
+}
+
+/* Elementos de navegação - Menu principal */
+menu {
+   padding: 1em;
+   word-spacing: 2em;
+}
